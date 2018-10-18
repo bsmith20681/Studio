@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAUQ,6DAAqD;ACV7D,CAAE;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;;ACHxB,IAAK;EACH,WAAW,EFUC,MAAM",
+"sources": ["../sass/abstracts/_variables.scss","../sass/base/_base.scss","../sass/base/_typography.scss"],
+"names": [],
+"file": "mains.css"
+}
