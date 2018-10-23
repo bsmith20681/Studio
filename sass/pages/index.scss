@@ -1,0 +1,35 @@
+.header {
+  &__background{
+    height:100%;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($black, 0.55),
+      rgba($black, 0.55)),
+       url(../img/purple_bridge.jpg);
+    background-size: cover;
+    background-position: right;
+  }
+
+  &__text-box {
+    .header-primary {
+      margin-top: 14.3125rem;
+      margin-bottom: 1.0625rem;
+      text-align: center;
+      color: $white;
+      font-size: 5.8125rem;
+      }
+
+    .header-sub {
+      margin-top: 1.0625rem;
+      margin-bottom: 5.5625rem;
+      text-align: center;
+      color: $dark-white;
+      font-size: 1.25rem;
+    }
+
+    .header-scroll {
+      margin-top: 11.0625rem;
+      margin-bottom: 1.875rem;
+    }
+  }
+}

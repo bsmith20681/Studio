@@ -7,4 +7,47 @@
 body {
   font-family: Nunito; }
 
+.btn-black {
+  background: #292929;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 0.75rem 3.75rem;
+  position: relative;
+  background-clip: padding-box;
+  border: 4px solid transparent; }
+
+.btn-black::after {
+  position: absolute;
+  border-image: linear-gradient(to right, #0BDBA3, #E13BFF);
+  content: '';
+  z-index: -1;
+  border-radius: 30px; }
+
+.navbar-brand {
+  font-size: 3.0625rem; }
+.navbar .nav-link {
+  font-size: 1.1875rem; }
+
+.header__background {
+  height: 100%;
+  background-image: linear-gradient(to right bottom, rgba(41, 41, 41, 0.55), rgba(41, 41, 41, 0.55)), url(../img/purple_bridge.jpg);
+  background-size: cover;
+  background-position: right; }
+.header__text-box .header-primary {
+  margin-top: 14.3125rem;
+  margin-bottom: 1.0625rem;
+  text-align: center;
+  color: #fff;
+  font-size: 5.8125rem; }
+.header__text-box .header-sub {
+  margin-top: 1.0625rem;
+  margin-bottom: 5.5625rem;
+  text-align: center;
+  color: #e3e3e3;
+  font-size: 1.25rem; }
+.header__text-box .header-scroll {
+  margin-top: 11.0625rem;
+  margin-bottom: 1.875rem; }
+
 /*# sourceMappingURL=mains.css.map */
