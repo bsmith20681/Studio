@@ -33,3 +33,17 @@
     }
   }
 }
+
+
+
+.ourWork {
+  &-header {
+    font-size: 1.625rem;
+
+  }
+  &-sub {
+    font-size: 1rem;
+    color: $light-grey;
+
+  }
+}
