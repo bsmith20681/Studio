@@ -44,6 +44,41 @@
   &-sub {
     font-size: 1rem;
     color: $light-grey;
-
   }
+}
+
+
+.aboutUs {
+  &-backgroundimage {
+    height:50.375rem;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($green, 0.55),
+      rgba($light-purple, 0.55)),
+       url(../img/workspace.jpg);
+    background-size: cover;
+    background-position: right;
+  }
+}
+
+
+
+.portfolio {
+  &-image {
+    width: 100%;
+    height: 100%;
+    margin: 5px 5px 40px 5px;
+  }
+}
+
+.testimonial {
+  height: 24.1875rem;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($green, 0.55),
+    rgba($light-purple, 0.55)),
+     url(../img/workplace_2.jpg);
+  background-size: cover;
+  background-position: right;
+
 }
