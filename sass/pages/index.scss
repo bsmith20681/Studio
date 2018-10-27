@@ -59,6 +59,61 @@
     background-size: cover;
     background-position: right;
   }
+
+  &-title {
+    color:$light-grey;
+    font-size: 1.25rem;
+  }
+
+  &-sub {
+    color:$light-grey;
+    font-size: 1rem;
+  }
+
+  &__skillmeter-ps {
+    border: 4px solid;
+    border-image: linear-gradient(to right, $light-purple, $green);
+    border-image-slice: 1;
+    width: 68%;
+  }
+
+  &__span-ps {
+    margin-left: 60%;
+  }
+
+  &__skillmeter-ai {
+    border: 4px solid;
+    border-image: linear-gradient(to right, $light-purple, $green);
+    border-image-slice: 1;
+    width: 57%;
+  }
+
+  &__span-ai {
+    margin-left: 50%;
+  }
+
+  &__skillmeter-seo {
+    border: 4px solid;
+    border-image: linear-gradient(to right, $light-purple, $green);
+    border-image-slice: 1;
+    width: 60%;
+  }
+
+  &__span-seo {
+    margin-left: 50%;
+  }
+
+  &__skillmeter-wp {
+    border: 4px solid;
+    border-image: linear-gradient(to right, $light-purple, $green);
+    border-image-slice: 1;
+    width: 45%;
+  }
+
+  &__span-wp{
+    margin-left: 35%;
+  }
+
 }
 
 
@@ -72,6 +127,7 @@
 }
 
 .testimonial {
+  margin-top: 3.5rem;
   height: 24.1875rem;
   background-image: linear-gradient(
     to right bottom,

@@ -71,6 +71,40 @@ body {
   background-image: linear-gradient(to right bottom, rgba(11, 219, 163, 0.55), rgba(225, 59, 255, 0.55)), url(../img/workspace.jpg);
   background-size: cover;
   background-position: right; }
+.aboutUs-title {
+  color: #95989a;
+  font-size: 1.25rem; }
+.aboutUs-sub {
+  color: #95989a;
+  font-size: 1rem; }
+.aboutUs__skillmeter-ps {
+  border: 4px solid;
+  border-image: linear-gradient(to right, #E13BFF, #0BDBA3);
+  border-image-slice: 1;
+  width: 68%; }
+.aboutUs__span-ps {
+  margin-left: 60%; }
+.aboutUs__skillmeter-ai {
+  border: 4px solid;
+  border-image: linear-gradient(to right, #E13BFF, #0BDBA3);
+  border-image-slice: 1;
+  width: 57%; }
+.aboutUs__span-ai {
+  margin-left: 50%; }
+.aboutUs__skillmeter-seo {
+  border: 4px solid;
+  border-image: linear-gradient(to right, #E13BFF, #0BDBA3);
+  border-image-slice: 1;
+  width: 60%; }
+.aboutUs__span-seo {
+  margin-left: 50%; }
+.aboutUs__skillmeter-wp {
+  border: 4px solid;
+  border-image: linear-gradient(to right, #E13BFF, #0BDBA3);
+  border-image-slice: 1;
+  width: 45%; }
+.aboutUs__span-wp {
+  margin-left: 35%; }
 
 .portfolio-image {
   width: 100%;
@@ -78,6 +112,7 @@ body {
   margin: 5px 5px 40px 5px; }
 
 .testimonial {
+  margin-top: 3.5rem;
   height: 24.1875rem;
   background-image: linear-gradient(to right bottom, rgba(11, 219, 163, 0.55), rgba(225, 59, 255, 0.55)), url(../img/workplace_2.jpg);
   background-size: cover;
