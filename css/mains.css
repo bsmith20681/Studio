@@ -34,6 +34,21 @@ body {
     border-radius: 30px;
     padding: 1.3125rem 4.1875rem; }
 
+.card-solid {
+  border: 4px solid #9312E5;
+  padding: 100px 180px 100px 180px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 31rem; }
+  .card-solid-listItem {
+    list-style: none; }
+
+.card-gradient {
+  border: 3px solid #9312E5;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 100px 180px 100px 180px; }
+
 .navbar-brand {
   font-size: 3.0625rem; }
 .navbar .nav-link {
