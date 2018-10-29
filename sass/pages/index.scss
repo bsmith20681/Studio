@@ -39,7 +39,6 @@
 .ourWork {
   &-header {
     font-size: 1.625rem;
-
   }
   &-sub {
     font-size: 1rem;
@@ -109,13 +108,10 @@
     border-image-slice: 1;
     width: 45%;
   }
-
   &__span-wp{
     margin-left: 35%;
   }
-
 }
-
 
 
 .portfolio {
@@ -137,4 +133,20 @@
   background-size: cover;
   background-position: right;
 
+}
+
+.emailSignup {
+  margin-top: 3.5rem;
+  height: 25.75rem;
+  background-image: linear-gradient(
+    to right,
+    rgba($green, 0.55),
+    rgba($purple, 0.55)),
+     url(../img/bridge_gold.jpg);
+  background-size: cover;
+  background-position: center;
+  &-header {
+    color: $white;
+    font-size: 2rem;
+  }
 }

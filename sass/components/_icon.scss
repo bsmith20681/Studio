@@ -1,0 +1,12 @@
+.icon {
+  margin-top: 3.75rem;
+  &-img {
+  padding: 15px;
+  }
+  &-bk {
+    background-color: $white;
+    border-radius: 50px;
+    padding: 1.3125rem;
+    margin: 0px 10px 0px 10px;
+  }
+}

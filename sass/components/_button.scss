@@ -24,3 +24,15 @@
 
   }
 }
+
+.btn-green {
+  background-color: $green;
+  border: none;
+  color: $white;
+  padding: 15px 43px;
+  border-radius: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

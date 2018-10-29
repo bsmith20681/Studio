@@ -1,0 +1,12 @@
+.footer {
+  background-color: $black;
+  height: 8.4375rem;
+
+  .nav-link {
+    font-size: 1.1875rem;
+    color: $white;
+  }
+  .nav-link:hover{
+    color:$light-grey;
+  }
+}

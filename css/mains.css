@@ -34,20 +34,104 @@ body {
     border-radius: 30px;
     padding: 1.3125rem 4.1875rem; }
 
+.btn-green {
+  background-color: #0BDBA3;
+  border: none;
+  color: #fff;
+  padding: 15px 43px;
+  border-radius: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; }
+
 .card-solid {
   border: 4px solid #9312E5;
-  padding: 100px 180px 100px 180px;
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 31rem; }
+  padding: 6.25rem 11.25rem 6.25rem 11.25rem;
+  margin: 5.625rem 1rem 5.625rem 1rem;
+  width: 31rem;
+  height: 46.5rem; }
+  .card-solid-title {
+    color: #9312E5;
+    font-size: 2rem; }
+  .card-solid-price {
+    font-size: 1.25rem;
+    color: #5a5a5a; }
+    .card-solid-price span {
+      font-size: 2.75rem;
+      color: #9312E5;
+      padding-top: 0.6rem; }
   .card-solid-listItem {
-    list-style: none; }
+    list-style: none;
+    color: #5a5a5a;
+    margin-top: 1.125rem;
+    margin-bottom: 1.125rem;
+    font-size: 1.25rem; }
+  .card-solid .btn-black {
+    padding-left: 20px;
+    padding-right: 20px; }
 
 .card-gradient {
-  border: 3px solid #9312E5;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding: 100px 180px 100px 180px; }
+  border: 4px solid #9312E5;
+  padding: 6.25rem 11.25rem 6.25rem 11.25rem;
+  margin: 5.625rem 1rem 5.625rem 1rem;
+  width: 31rem;
+  height: 46.5rem; }
+  .card-gradient-title {
+    color: #9312E5;
+    font-size: 2rem; }
+  .card-gradient-price {
+    font-size: 1.25rem;
+    color: #5a5a5a; }
+    .card-gradient-price span {
+      font-size: 2.75rem;
+      color: #9312E5;
+      padding-top: 0.6rem; }
+  .card-gradient-listItem {
+    list-style: none;
+    color: #5a5a5a;
+    margin-top: 1.125rem;
+    margin-bottom: 1.125rem;
+    font-size: 1.25rem; }
+
+.icon {
+  margin-top: 3.75rem; }
+  .icon-img {
+    padding: 15px; }
+  .icon-bk {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 1.3125rem;
+    margin: 0px 10px 0px 10px; }
+
+.signup__form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 2.5rem; }
+  .signup__form-name {
+    width: 14.875rem;
+    height: 3.0625rem;
+    border-style: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    padding-left: 1rem; }
+  .signup__form-email {
+    width: 28.0625rem;
+    height: 3.0625rem;
+    border-style: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    padding-left: 1rem; }
+
+.footer {
+  background-color: #292929;
+  height: 8.4375rem; }
+  .footer .nav-link {
+    font-size: 1.1875rem;
+    color: #fff; }
+  .footer .nav-link:hover {
+    color: #95989a; }
 
 .navbar-brand {
   font-size: 3.0625rem; }
@@ -132,5 +216,15 @@ body {
   background-image: linear-gradient(to right bottom, rgba(11, 219, 163, 0.55), rgba(225, 59, 255, 0.55)), url(../img/workplace_2.jpg);
   background-size: cover;
   background-position: right; }
+
+.emailSignup {
+  margin-top: 3.5rem;
+  height: 25.75rem;
+  background-image: linear-gradient(to right, rgba(11, 219, 163, 0.55), rgba(147, 18, 229, 0.55)), url(../img/bridge_gold.jpg);
+  background-size: cover;
+  background-position: center; }
+  .emailSignup-header {
+    color: #fff;
+    font-size: 2rem; }
 
 /*# sourceMappingURL=mains.css.map */
