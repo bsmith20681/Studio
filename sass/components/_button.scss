@@ -3,7 +3,7 @@
   color: $white;
   border: none;
   border-radius: 30px;
-  padding: 1.75rem 0.4375rem;
+  padding: 1.1875rem 0.4187rem;
   text-decoration: none;
 
 
@@ -20,7 +20,7 @@
   span {
     background: $black;
     border-radius: 30px;
-    padding: 1.3125rem 4.1875rem;
+    padding: 0.75rem 3.75rem;
 
   }
 }
@@ -29,10 +29,38 @@
   background-color: $green;
   border: none;
   color: $white;
-  padding: 15px 43px;
+  padding: 0.9375rem 2.6875rem;
   border-radius: 60px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
+
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: $white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba($black,.2);
+  }
+}
+
+.btn-white {
+  background-color: $white;
+  border: none;
+  color: purple;
+  padding: 1.125rem 3.75rem;
+  border-radius: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: $white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba($black,.2);
+  }
 }
