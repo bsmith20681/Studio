@@ -71,8 +71,8 @@ body {
 .card-solid {
   border: 4px solid #9312E5;
   margin: 5.625rem 1rem 5.625rem 1rem;
-  width: 31rem;
-  height: 46.5rem; }
+  width: 100%;
+  height: 41rem; }
   .card-solid-title {
     color: #9312E5;
     font-size: 2rem;
@@ -92,24 +92,25 @@ body {
     font-size: 1.25rem; }
 
 .card-gradient {
-  border: 4px solid #9312E5;
+  border: 4px solid #fff;
+  background-image: linear-gradient(#0BDBA3, #9312E5);
   margin: 5.625rem 1rem 5.625rem 1rem;
-  width: 31rem;
-  height: 46.5rem; }
+  width: 100%;
+  height: 41rem; }
   .card-gradient-title {
-    color: #9312E5;
+    color: #fff;
     font-size: 2rem;
     margin-top: 6.25rem; }
   .card-gradient-price {
     font-size: 1.25rem;
-    color: #5a5a5a; }
+    color: #fff; }
     .card-gradient-price span {
       font-size: 2.75rem;
-      color: #9312E5;
+      color: #fff;
       padding-top: 0.6rem; }
   .card-gradient-listItem {
     list-style: none;
-    color: #5a5a5a;
+    color: #fff;
     margin-top: 1.125rem;
     margin-bottom: 1.125rem;
     font-size: 1.25rem; }
@@ -225,10 +226,11 @@ body {
 .aboutUs__span-wp {
   margin-left: 35%; }
 
+.portfolio-title {
+  margin-top: 4.6875rem; }
 .portfolio-image {
-  width: 100%;
-  height: 100%;
-  margin: 5px 5px 40px 5px; }
+  height: 407px;
+  width: 554px; }
 
 .testimonial {
   margin-top: 3.5rem;

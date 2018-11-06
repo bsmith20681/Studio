@@ -115,10 +115,12 @@
 
 
 .portfolio {
+  &-title {
+    margin-top: 4.6875rem;
+  }
   &-image {
-    width: 100%;
-    height: 100%;
-    margin: 5px 5px 40px 5px;
+  height: 407px;
+  width: 554px;
   }
 }
 
