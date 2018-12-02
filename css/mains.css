@@ -10,6 +10,9 @@ body {
 .margin-bottom-medium {
   margin-bottom: 5.0625rem; }
 
+.margin-bottom-huge {
+  margin-bottom: 248px !important; }
+
 .margin-top-small {
   margin-top: 1.875rem; }
 
@@ -179,6 +182,8 @@ body {
 .header__text-box .header-scroll {
   margin-top: 11.0625rem;
   margin-bottom: 1.875rem; }
+.header img {
+  margin-bottom: 248px; }
 
 .ourWork-header {
   font-size: 1.625rem; }
@@ -238,6 +243,28 @@ body {
   background-image: linear-gradient(to right bottom, rgba(11, 219, 163, 0.55), rgba(225, 59, 255, 0.55)), url(../img/workplace_2.jpg);
   background-size: cover;
   background-position: right; }
+  .testimonial__name {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 21px; }
+  .testimonial__title {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 21px; }
+  .testimonial__text {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 21px; }
+  .testimonial .carousel {
+    margin-top: 92px; }
+    .testimonial .carousel-inner {
+      width: 100%; }
+    .testimonial .carousel-item {
+      float: left; }
+      .testimonial .carousel-item img {
+        width: 95px;
+        height: 95px; }
 
 .emailSignup {
   margin-top: 3.5rem;
