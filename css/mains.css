@@ -173,12 +173,18 @@ body {
   text-align: center;
   color: #fff;
   font-size: 5.8125rem; }
+  @media screen and (max-width: 992px) {
+    .header__text-box .header-primary {
+      margin-top: 1rem; } }
 .header__text-box .header-sub {
   margin-top: 1.0625rem;
   margin-bottom: 5.5625rem;
   text-align: center;
   color: #e3e3e3;
   font-size: 1.25rem; }
+  @media screen and (max-width: 992px) {
+    .header__text-box .header-sub {
+      margin-bottom: 1rem; } }
 .header__text-box .header-scroll {
   margin-top: 11.0625rem;
   margin-bottom: 1.875rem; }
@@ -196,6 +202,9 @@ body {
   background-image: linear-gradient(to right bottom, rgba(11, 219, 163, 0.55), rgba(225, 59, 255, 0.55)), url(../img/workspace.jpg);
   background-size: cover;
   background-position: right; }
+  @media screen and (max-width: 992px) {
+    .aboutUs-backgroundimage {
+      display: none; } }
 .aboutUs-title {
   color: #95989a;
   font-size: 1.25rem; }
