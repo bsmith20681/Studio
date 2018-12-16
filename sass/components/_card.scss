@@ -1,6 +1,4 @@
 .card-solid {
-
-
   border: 4px solid $purple;
   margin: 5.625rem 1rem 5.625rem 1rem;
   width: 100%;
@@ -62,8 +60,7 @@
   &-listItem {
     list-style: none;
     color: $white;
-    margin-top: 1.125rem;
-    margin-bottom: 1.125rem;
+    margin-top: 0.9rem;
     font-size: 1.25rem;
   }
 }

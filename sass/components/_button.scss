@@ -1,12 +1,10 @@
-.btn-black {
+.btn--black {
   background: linear-gradient(to right, $green, $purple);
   color: $white;
   border: none;
   border-radius: 30px;
   padding: 1.1875rem 0.4187rem;
   text-decoration: none;
-
-
 
   &:hover {
     text-decoration: none;
@@ -15,8 +13,6 @@
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba($black,.2);
   }
-
-
   span {
     background: $black;
     border-radius: 30px;
@@ -45,10 +41,10 @@
   }
 }
 
-.btn-white {
+.btn--white {
   background-color: $white;
   border: none;
-  color: purple;
+  color: $purple;
   padding: 1.125rem 3.75rem;
   border-radius: 60px;
   text-align: center;
@@ -57,9 +53,9 @@
   font-size: 1rem;
 
   &:hover {
+    color: $purple;
     text-decoration: none;
     cursor: pointer;
-    color: $white;
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba($black,.2);
   }

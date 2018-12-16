@@ -19,20 +19,20 @@ body {
 .margin-top-medium {
   margin-top: 5.0625rem; }
 
-.btn-black {
+.btn--black {
   background: linear-gradient(to right, #0BDBA3, #9312E5);
   color: #fff;
   border: none;
   border-radius: 30px;
   padding: 1.1875rem 0.4187rem;
   text-decoration: none; }
-  .btn-black:hover {
+  .btn--black:hover {
     text-decoration: none;
     cursor: pointer;
     color: #fff;
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba(41, 41, 41, 0.2); }
-  .btn-black span {
+  .btn--black span {
     background: #292929;
     border-radius: 30px;
     padding: 0.75rem 3.75rem; }
@@ -54,20 +54,20 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba(41, 41, 41, 0.2); }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
   border: none;
-  color: purple;
+  color: #9312E5;
   padding: 1.125rem 3.75rem;
   border-radius: 60px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1rem; }
-  .btn-white:hover {
+  .btn--white:hover {
+    color: #9312E5;
     text-decoration: none;
     cursor: pointer;
-    color: #fff;
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba(41, 41, 41, 0.2); }
 
@@ -114,8 +114,7 @@ body {
   .card-gradient-listItem {
     list-style: none;
     color: #fff;
-    margin-top: 1.125rem;
-    margin-bottom: 1.125rem;
+    margin-top: 0.9rem;
     font-size: 1.25rem; }
 
 .icon {
@@ -167,23 +166,23 @@ body {
   background-image: linear-gradient(to right bottom, rgba(41, 41, 41, 0.55), rgba(41, 41, 41, 0.55)), url(../img/purple_bridge.jpg);
   background-size: cover;
   background-position: right; }
-.header__text-box .header-primary {
+.header__text-box .header__primary {
   margin-top: 14.3125rem;
   margin-bottom: 1.0625rem;
   text-align: center;
   color: #fff;
   font-size: 5.8125rem; }
   @media screen and (max-width: 992px) {
-    .header__text-box .header-primary {
+    .header__text-box .header__primary {
       margin-top: 1rem; } }
-.header__text-box .header-sub {
+.header__text-box .header__sub {
   margin-top: 1.0625rem;
   margin-bottom: 5.5625rem;
   text-align: center;
   color: #e3e3e3;
   font-size: 1.25rem; }
   @media screen and (max-width: 992px) {
-    .header__text-box .header-sub {
+    .header__text-box .header__sub {
       margin-bottom: 1rem; } }
 .header__text-box .header-scroll {
   margin-top: 11.0625rem;
