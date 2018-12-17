@@ -132,20 +132,28 @@ body {
   flex-flow: row wrap;
   align-items: center;
   margin-top: 2.5rem; }
-  .signup__form-name {
+  .signup__form--name {
     width: 14.875rem;
     height: 3.0625rem;
     border-style: none;
     border-radius: 5px;
     margin-right: 1rem;
     padding-left: 1rem; }
-  .signup__form-email {
+    @media screen and (max-width: 400px) {
+      .signup__form--name {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem; } }
+  .signup__form--email {
     width: 28.0625rem;
     height: 3.0625rem;
     border-style: none;
     border-radius: 5px;
     margin-right: 1rem;
     padding-left: 1rem; }
+    @media screen and (max-width: 400px) {
+      .signup__form--email {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem; } }
 
 .footer {
   background-color: #292929;
@@ -174,7 +182,8 @@ body {
   font-size: 5.8125rem; }
   @media screen and (max-width: 992px) {
     .header__text-box .header__primary {
-      margin-top: 1rem; } }
+      margin-top: 1rem;
+      font-size: 6vh; } }
 .header__text-box .header__sub {
   margin-top: 1.0625rem;
   margin-bottom: 5.5625rem;
@@ -190,58 +199,58 @@ body {
 .header img {
   margin-bottom: 248px; }
 
-.ourWork-header {
+.ourWork__header {
   font-size: 1.625rem; }
-.ourWork-sub {
+.ourWork__sub {
   font-size: 1rem;
   color: #95989a; }
 
-.aboutUs-backgroundimage {
+.aboutUs__backgroundimage {
   height: 50.375rem;
   background-image: linear-gradient(to right bottom, rgba(11, 219, 163, 0.55), rgba(225, 59, 255, 0.55)), url(../img/workspace.jpg);
   background-size: cover;
   background-position: right; }
   @media screen and (max-width: 992px) {
-    .aboutUs-backgroundimage {
+    .aboutUs__backgroundimage {
       display: none; } }
-.aboutUs-title {
+.aboutUs__title {
   color: #95989a;
   font-size: 1.25rem; }
-.aboutUs-sub {
+.aboutUs__sub {
   color: #95989a;
   font-size: 1rem; }
-.aboutUs__skillmeter-ps {
+.aboutUs__skillmeter--ps {
   border: 4px solid;
   border-image: linear-gradient(to right, #E13BFF, #0BDBA3);
   border-image-slice: 1;
   width: 68%; }
-.aboutUs__span-ps {
+.aboutUs__span--ps {
   margin-left: 60%; }
-.aboutUs__skillmeter-ai {
+.aboutUs__skillmeter--ai {
   border: 4px solid;
   border-image: linear-gradient(to right, #E13BFF, #0BDBA3);
   border-image-slice: 1;
   width: 57%; }
-.aboutUs__span-ai {
+.aboutUs__span--ai {
   margin-left: 50%; }
-.aboutUs__skillmeter-seo {
+.aboutUs__skillmeter--seo {
   border: 4px solid;
   border-image: linear-gradient(to right, #E13BFF, #0BDBA3);
   border-image-slice: 1;
   width: 60%; }
-.aboutUs__span-seo {
+.aboutUs__span--seo {
   margin-left: 50%; }
-.aboutUs__skillmeter-wp {
+.aboutUs__skillmeter--wp {
   border: 4px solid;
   border-image: linear-gradient(to right, #E13BFF, #0BDBA3);
   border-image-slice: 1;
   width: 45%; }
-.aboutUs__span-wp {
+.aboutUs__span--wp {
   margin-left: 35%; }
 
-.portfolio-title {
+.portfolio__header {
   margin-top: 4.6875rem; }
-.portfolio-image {
+.portfolio__image {
   margin-bottom: 34px; }
 
 .testimonial {
@@ -279,8 +288,11 @@ body {
   background-image: linear-gradient(to right, rgba(11, 219, 163, 0.55), rgba(147, 18, 229, 0.55)), url(../img/bridge_gold.jpg);
   background-size: cover;
   background-position: center; }
-  .emailSignup-header {
+  .emailSignup__header {
     color: #fff;
     font-size: 2rem; }
+  @media screen and (max-width: 400px) {
+    .emailSignup {
+      height: 35rem; } }
 
 /*# sourceMappingURL=mains.css.map */
