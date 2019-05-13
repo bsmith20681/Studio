@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Studio</title>
+  <!-- VENDER CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- CUSTOMER CSS -->
   <link rel="stylesheet" href="css/mains.css">
 </head>
 <body>
+
+<!-- NAV AND HEADER -->
 
 <section class="header header__background">
     <nav class="navbar navbar-expand-lg navbar-dark" data-aos="fade-up">
@@ -25,42 +29,41 @@
               <a href="" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">About Us</a>
+              <a href="#ourWork" class="nav-link">Our Work</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Our Work</a>
+              <a href="#aboutUs" class="nav-link">About Us</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Expertise</a>
+              <a href="#portfolio" class="nav-link">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Price</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Contact</a>
+              <a href="#price" class="nav-link">Price</a>
             </li>
           </ul>
-        </div>
-      </div>
-    </nav>
+        </div> <!-- COLLAPSE -->
+      </div> <!-- CONTAINER-FLUID -->
+    </nav> <!-- NAV -->
 
     <div class="container" data-aos="fade-up">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
           <div class="header__text-box text-center animated fadeInUp">
             <h1 class="header__primary">We build digital products & services</h1>
             <p class="header__sub">From small businesses to large companies, we have been successfully creating<br> websites and web applications for our clients</p>
-            <a href="" class="btn--black text-center margin-bottom-huge"><span>See Our Work</span></a>
+            <a href="#portfolio" class="btn--black text-center margin-bottom-huge"><span>See Our Work</span></a>
             <img src="" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+          </div> <!-- HEAER__TEXT-BOX -->
+        </div> <!-- COL -->
+      </div>  <!-- ROW -->
+    </div>  <!-- CONTAINER -->
+   </section>  <!--HEADER AND HEADER__BACKGROUND -->
+
+  <!-- END OF NAV AND HEADER  -->
 
   <!--OUR WORK SECTION -->
 
-  <section class="ourWork" data-aos="fade-left">
+  <section class="ourWork" id="ourWork" data-aos="fade-left">
     <div class="container">
       <div class="row text-center margin-bottom-medium margin-top-medium">
         <div class="col-lg-2">
@@ -84,13 +87,15 @@
           <h2 class="ourWork__header">DEVELOPMENT</h2>
           <p class="ourWork__sub">Let you’ll one had. Gathering replenish behold open subdue signs place hath meat image fly. Whose together. Over there you, fill herb set had likeness</p>
         </div>
-      </div>
-    </div>
-  </section>
+      </div> <!-- ROW -->
+    </div> <!-- CONTAINER -->
+  </section> <!-- OUR-WORK -->
+
+  <!-- END OF OUR WORK SECTION -->
 
 <!-- ABOUT US SECTION -->
 
-  <section class="aboutUs">
+  <section class="aboutUs" id="aboutUs">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6">
@@ -111,20 +116,22 @@
           <p>SEO <span class="aboutUs__span--seo">80%</span></p>
           <div class="aboutUs__skillmeter--wp"></div>
           <p>WP <span class="aboutUs__span--wp">60%</span></p>
-        </div>
-      </div>
-    </div>
-  </section>
+        </div> <!-- COL -->
+      </div>  <!-- FLUID -->
+    </div>  <!-- CONATINER-FLUID -->
+  </section> <!-- ABOUT US -->
+
+  <!-- END OF ABOUT US SECTION -->
 
   <!--PORTFOLIO-->
 
-  <section class="portfolio" data-aos="fade-up">
+  <section class="portfolio" id="portfolio" data-aos="fade-up">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
           <h1 class="text-center portfolio__header">PORTFOLIO</h1>
         </div>
-      </div>
+      </div> <!-- ROW -->
 
       <div class="row">
         <div class="portfolio__image col-lg-4 col-md-6 col-sm-6">
@@ -145,19 +152,21 @@
         <div class="portfolio__image col-lg-4 col-md-6 col-sm-6">
           <img class="img-fluid" src="img/2.jpg" alt="">
         </div>
-      </div>
+      </div> <!-- ROW -->
 
       <div class="row text-center  mt-3">
         <div class="col-lg-12">
-          <a href="#" class="btn--black"><span>See Our Work</span></a>
+          <a href="#" class="btn--black" data-toggle="modal" data-target="#modalCenter"><span>See Our Work</span></a>
         </div>
-      </div>
-    </div>
-  </section>
+      </div> <!-- ROW -->
+    </div> <!-- CONTAINER-FLUID -->
+  </section> <!-- PORTFOLIO -->
+
+  <!-- END OF PORTLIO SECTION -->
 
   <!--TESTIMONIAL-->
 
-  <section class="testimonial" data-aos="fade-up">
+  <section class="testimonial" id="testimonial" data-aos="fade-up">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
@@ -177,7 +186,7 @@
                   </div>
                   <div class="row">
                     <div class="col-lg-10">
-                      <p class="testimonial__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quidem provident quae necessitatibus ea aspernatur quas et, dolore laboriosam, reprehenderit iure quod debitis officiis! Ut!"</p>
+                      <p class="testimonial__text">"This service was the best service out there! It was worth every penny!"</p>
                     </div>
                   </div>
                 </div>
@@ -190,13 +199,13 @@
                         <img class="" src="img/john_smith.png" alt="First slide">
                       </div>
                       <div class="col-lg-4">
-                        <h3 class="testimonial__name">John Smith</h3>
-                        <h4 class="testimonial__title">Founder of Mania</h4>
+                        <h3 class="testimonial__name">Raymon Jackson</h3>
+                        <h4 class="testimonial__title">CEO of Dunder Mifflin</h4>
                       </div>
                     </div>
                     <div class="row">
                       <div class="col-lg-10">
-                        <p class="testimonial__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quidem provident quae necessitatibus ea aspernatur quas et, dolore laboriosam, reprehenderit iure quod debitis officiis! Ut!"</p>
+                        <p class="testimonial__text">"I would recommend this service to all of my friends. It was truly amazing. 10 out of 10!"</p>
                       </div>
                     </div>
                   </div>
@@ -209,13 +218,13 @@
                         <img class="" src="img/john_smith.png" alt="First slide">
                       </div>
                       <div class="col-lg-4">
-                        <h3 class="testimonial__name">John Smith</h3>
-                        <h4 class="testimonial__title">Founder of Mania</h4>
+                        <h3 class="testimonial__name">Bob Vance</h3>
+                        <h4 class="testimonial__title">Found of Vance Refrigeration</h4>
                       </div>
                     </div>
                     <div class="row">
                       <div class="col-lg-10">
-                        <p class="testimonial__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quidem provident quae necessitatibus ea aspernatur quas et, dolore laboriosam, reprehenderit iure quod debitis officiis! Ut!"</p>
+                        <p class="testimonial__text">"What can I say? Good service is hard to come by these days. It's nice to see good service being provided to others."</p>
                       </div>
                     </div>
                   </div>
@@ -231,15 +240,17 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-          </div>
-        </div>
-      </div>
-  </section>
+          </div> <!-- COL -->
+        </div> <!-- ROW -->
+      </div>  <!-- CONTAINER-FLUID -->
+  </section> <!-- TESTIMONIAL -->
+
+  <!-- END OF TESTIMONIAL SECTION -->
 
 
   <!--PRICE-->
 
-  <section class="price" data-aos="fade-up">
+  <section class="price" id="price" data-aos="fade-up">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -253,10 +264,10 @@
               <li class="card-solid-listItem">One Client</li>
               <li class="card-solid-listItem">1GB Storage</li>
             </ul>
-            <a href="" class="btn--black mb-5"><span>Buy Now</span></a>
+            <a href="" class="btn--black mb-5" data-toggle="modal" data-target="#modalCenter"><span>Buy Now</span></a>
           </div>
-
         </div>
+
         <div class="col-lg-4">
           <div class="card-gradient text-center">
             <h3 class="card-gradient-title">STANDARD</h3>
@@ -268,7 +279,7 @@
               <li class="card-gradient-listItem">One Client</li>
               <li class="card-gradient-listItem">1GB Storage</li>
             </ul>
-            <a href="" class="btn--white"><span>Buy Now</span></a>
+            <a href="" class="btn--white" data-toggle="modal" data-target="#modalCenter"><span>Buy Now</span></a>
           </div>
         </div>
 
@@ -283,12 +294,14 @@
               <li class="card-solid-listItem">One Client</li>
               <li class="card-solid-listItem">1GB Storage</li>
             </ul>
-            <a href="" class="btn--black"><span>Buy Now</span></a>
+            <a href="" class="btn--black" data-toggle="modal" data-target="#modalCenter"><span>Buy Now</span></a>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </div> <!-- COL -->
+      </div> <!-- ROW -->
+    </div>  <!-- CONTAINER -->
+  </section> <!-- PRICE -->
+
+<!-- END OF PRICE SECTION -->
 
   <!--EMAIL SIGN UP-->
 
@@ -300,22 +313,24 @@
           <form class="signup__form d-flex justify-content-center" action="">
             <input class="signup__form--name" type="text" placeholder="Name">
             <input class="signup__form--email" type="email" placeholder="Email">
-            <button class="btn-green">Submit</button>
+            <button class="btn-green" data-toggle="modal" data-target="#modalCenter">Submit</button>
           </form>
 
 
           <div class="icon d-flex justify-content-center">
-            <a href=""><img class="icon-bk icon-img"src="img/facebook-logo.png" alt=""></a>
-            <a href=""><img class="icon-bk icon-img"src="img/youtube-logo.png" alt=""></a>
-            <a href=""><img class="icon-bk icon-img"src="img/instagram-logo.png" alt=""></a>
-            <a href=""><img class="icon-bk icon-img"src="img/twitter.png" alt=""></a>
-            <a href=""><img class="icon-bk icon-img"src="img/LinkedIn.png" alt=""></a>
+            <a href="www.facebook.com"><img class="icon-bk icon-img"src="img/facebook-logo.png" alt=""></a>
+            <a href="www.youtube.com"><img class="icon-bk icon-img"src="img/youtube-logo.png" alt=""></a>
+            <a href="www.instagram.com"><img class="icon-bk icon-img"src="img/instagram-logo.png" alt=""></a>
+            <a href="www.twitter.com"><img class="icon-bk icon-img"src="img/twitter.png" alt=""></a>
+            <a href="www.linkedin.com"><img class="icon-bk icon-img"src="img/LinkedIn.png" alt=""></a>
           </div>
 
-        </div>
-      </div>
-    </div>
-  </section>
+        </div> <!-- COL -->
+      </div> <!-- ROW -->
+    </div> <!-- CONTAINER -->
+  </section> <!-- EMAIL-SIGNUP -->
+
+  <!-- END OF EMAIL SIGN UP -->
 
   <!--FOOTER-->
 
@@ -344,10 +359,33 @@
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
-        </div>
+        </div> <!-- COL -->
+      </div> <!-- ROW -->
+    </div> <!-- CONTAINER -->
+  </footer> <!-- FOOTER -->
+
+  <!-- END OF FOOTER -->
+
+
+
+  <!-- MODAL -->
+<div class="modal fade" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Sorry to bother you!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        So, this isn't an actual business! This is simple just a demo! If you like what you are seeing you should head over to <a href="www.github.com/bsmith20681">the developer's github page</a> and see all of his work!
       </div>
     </div>
-  </footer>
+  </div>
+</div>
+
+<!-- END OF MODAL -->
 
 
 
@@ -355,6 +393,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+
   <!--JAVASCRIPT FOR ANIMATION-->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
