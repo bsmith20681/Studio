@@ -7,11 +7,9 @@
   text-decoration: none;
 
   &:hover {
-    text-decoration: none;
-    cursor: pointer;
+    @include button-hover;
     color: $white;
-    transform: translateY(-3px);
-    box-shadow: 0 5px 10px rgba($black,.2);
+
   }
   span {
     background: $black;
@@ -21,16 +19,22 @@
   }
 }
 
-.btn-green {
-  background-color: $green;
+.btn {
   border: none;
-  color: $white;
-  padding: 0.9375rem 2.6875rem;
   border-radius: 60px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1rem;
+  &:hover {
+    @include button-hover
+  }
+}
+
+.btn--green {
+  background-color: $green;
+  color: $white;
+  padding: 0.9375rem 2.6875rem;
 
   &:hover {
     text-decoration: none;
@@ -43,20 +47,10 @@
 
 .btn--white {
   background-color: $white;
-  border: none;
   color: $purple;
   padding: 1.125rem 3.75rem;
-  border-radius: 60px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem;
 
   &:hover {
     color: $purple;
-    text-decoration: none;
-    cursor: pointer;
-    transform: translateY(-3px);
-    box-shadow: 0 5px 10px rgba($black,.2);
   }
 }

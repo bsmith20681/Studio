@@ -8,3 +8,10 @@
     margin-bottom: 0.5rem;
   }
 }
+
+@mixin button-hover {
+  text-decoration: none;
+  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba($black,.2);
+}

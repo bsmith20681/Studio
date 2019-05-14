@@ -1,0 +1,33 @@
+  .wrapper {
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(64,64,64,0.7);
+    border: 3px $white solid;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    width: 90%;
+    height: 90%;
+
+    .wrapper-text {
+      text-align: center;
+      color: $white;
+      h2 {
+        margin-top: 50px;
+      }
+      a {
+        color: $white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .overlay:hover {
+    opacity:1;
+  }

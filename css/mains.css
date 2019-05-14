@@ -4,11 +4,11 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: Nunito; }
-
-html {
-  scroll-behavior: smooth;}
 
 .margin-bottom-medium {
   margin-bottom: 5.0625rem; }
@@ -22,6 +22,33 @@ html {
 .margin-top-medium {
   margin-top: 5.0625rem; }
 
+.wrapper {
+  position: relative; }
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  transition: .5s ease;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(64, 64, 64, 0.7);
+  border: 3px #fff solid;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  width: 90%;
+  height: 90%; }
+  .overlay .wrapper-text {
+    text-align: center;
+    color: #fff; }
+    .overlay .wrapper-text h2 {
+      margin-top: 50px; }
+    .overlay .wrapper-text a {
+      color: #fff;
+      text-decoration: none; }
+
+.overlay:hover {
+  opacity: 1; }
+
 .btn--black {
   background: linear-gradient(to right, #0BDBA3, #9312E5);
   color: #fff;
@@ -32,25 +59,32 @@ html {
   .btn--black:hover {
     text-decoration: none;
     cursor: pointer;
-    color: #fff;
     transform: translateY(-3px);
-    box-shadow: 0 5px 10px rgba(41, 41, 41, 0.2); }
+    box-shadow: 0 5px 10px rgba(41, 41, 41, 0.2);
+    color: #fff; }
   .btn--black span {
     background: #292929;
     border-radius: 30px;
     padding: 0.75rem 3.75rem; }
 
-.btn-green {
-  background-color: #0BDBA3;
+.btn {
   border: none;
-  color: #fff;
-  padding: 0.9375rem 2.6875rem;
   border-radius: 60px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1rem; }
-  .btn-green:hover {
+  .btn:hover {
+    text-decoration: none;
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(41, 41, 41, 0.2); }
+
+.btn--green {
+  background-color: #0BDBA3;
+  color: #fff;
+  padding: 0.9375rem 2.6875rem; }
+  .btn--green:hover {
     text-decoration: none;
     cursor: pointer;
     color: #fff;
@@ -59,20 +93,10 @@ html {
 
 .btn--white {
   background-color: #fff;
-  border: none;
   color: #9312E5;
-  padding: 1.125rem 3.75rem;
-  border-radius: 60px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem; }
+  padding: 1.125rem 3.75rem; }
   .btn--white:hover {
-    color: #9312E5;
-    text-decoration: none;
-    cursor: pointer;
-    transform: translateY(-3px);
-    box-shadow: 0 5px 10px rgba(41, 41, 41, 0.2); }
+    color: #9312E5; }
 
 .card-solid {
   border: 4px solid #9312E5;
@@ -202,9 +226,9 @@ html {
 .header img {
   margin-bottom: 248px; }
 
-.ourWork__header {
+.our-work__header {
   font-size: 1.625rem; }
-.ourWork__sub {
+.our-work__sub {
   font-size: 1rem;
   color: #95989a; }
 
@@ -285,17 +309,17 @@ html {
         width: 95px;
         height: 95px; }
 
-.emailSignup {
+.signup {
   margin-top: 3.5rem;
   height: 25.75rem;
   background-image: linear-gradient(to right, rgba(11, 219, 163, 0.55), rgba(147, 18, 229, 0.55)), url(../img/bridge_gold.jpg);
   background-size: cover;
   background-position: center; }
-  .emailSignup__header {
+  .signup__header {
     color: #fff;
     font-size: 2rem; }
   @media screen and (max-width: 400px) {
-    .emailSignup {
+    .signup {
       height: 35rem; } }
 
 /*# sourceMappingURL=mains.css.map */
