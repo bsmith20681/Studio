@@ -18,7 +18,7 @@ If you plan on changing any of the SASS code, then you will want to have a compi
 
 ## Authors
 
-* **Ben Smith** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Ben Smith** - *Initial work* - [www.bengsmith.com](https://www.bengsmith.com/index.html)
 
 
 ## License
